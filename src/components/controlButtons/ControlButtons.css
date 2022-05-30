@@ -1,0 +1,14 @@
+.footer-buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+button {
+  margin: 30px auto;
+  width: 80px;
+  height: 40px;
+  font-size: 1.1em;
+  border-radius: 20px;
+  background-color: rgb(123, 202, 202);
+}

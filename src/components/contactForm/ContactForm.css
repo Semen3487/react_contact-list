@@ -1,0 +1,28 @@
+.main-inner-form {
+  margin: 10px;
+  width: 100%;
+  background-color: rgb(207, 224, 218);
+}
+
+.form-item {
+  margin: 10px 2px;
+}
+
+input {
+  width: 85%;
+  min-height: 50px;
+  font-size: 1.1em;
+  letter-spacing: 1.5px;
+  text-indent: 5%;
+  outline: transparent;
+  border-color: transparent;
+}
+
+span {
+  margin-left: 10px;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: white;
+  border: solid 3px white;
+  background-color: red;
+}
