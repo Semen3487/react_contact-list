@@ -18,11 +18,28 @@ input {
   border-color: transparent;
 }
 
-span {
+.input-group {
   margin-left: 10px;
   font-size: 1.3em;
   font-weight: 700;
   color: white;
   border: solid 3px white;
   background-color: red;
+}
+
+.input-group:hover {
+  cursor: pointer;
+}
+
+button {
+  margin: 30px;
+  width: 80px;
+  height: 40px;
+  font-size: 1.1em;
+  border-radius: 20px;
+  background-color: rgb(123, 202, 202);
+}
+
+button:hover {
+  cursor: pointer;
 }

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './ControlButtons.css';
 
 export class ControlButtons extends Component {
+
+
   render() {
     return (
       <div className='footer-buttons'>

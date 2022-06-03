@@ -1,0 +1,31 @@
+.list-item {
+  margin: 10px 5px;
+  min-height: 50px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  background-color: white;
+}
+
+.list-group-name {
+  font-size: 1.1em;
+  letter-spacing: 1.5px;
+  text-indent: 5%;
+  text-align: left;
+  flex-grow: 3;
+}
+
+.list-group-delete {
+  margin: 5px;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-align: right;
+  color: rgb(0, 157, 255);
+  border: solid 3px rgb(0, 157, 255);
+  background-color: white;
+}
+
+.list-group-delete:hover {
+  cursor: pointer;
+}
