@@ -6,21 +6,22 @@ import ListName from './components/listName/ListName';
 export class App extends Component {
 
   state = {
-    toListItem: [],
-    // toSendForm: [
-    //   {
-    //     fName: '',
-    //     lName: '',
-    //     email: '',
-    //     phone: '',
-    //   }
-    // ],
+    toListItem: [
+      {
+        id: 1,
+        fName: '',
+        lName: '',
+        email: '',
+        phone: '',
+      }
+    ],
+    
   }
 
-  addContactName = (toSendForm) => {
-    toSendForm.id = Date.now();
+  addContactName = (contact) => {
+    contact.id = Date.now();
     this.setState({
-      toListItem: [...this.state.toListItem, toSendForm]
+      toListItem: [...this.state.toListItem, contact]
     })
   }
 

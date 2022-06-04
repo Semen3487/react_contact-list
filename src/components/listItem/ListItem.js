@@ -13,7 +13,7 @@ export class ListItem extends Component {
     return (
       <div className='list-item'>
         <span className='list-group-name'>
-          {this.props.contact.name}
+          {this.props.contact.fName} {this.props.contact.lName}
         </span>
         <span className='list-group-delete'
               onClick={this.onContactDelete} >X</span>

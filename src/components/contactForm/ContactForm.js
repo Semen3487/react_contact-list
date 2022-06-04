@@ -4,20 +4,11 @@ import './ContactForm.css';
 export class ContactForm extends Component {
 
   state = {
-    toSendForm: [
-        {
-          fName: '',
-          lName: '',
-          email: '',
-          phone: '',
-        }
-      ],
-  }
-
-  // fName: '',
-  //   lName: '',
-  //   email: '',
-  //   phone: '',   
+    fName: '',
+    lName: '',
+    email: '',
+    phone: '',
+  }  
 
   onInputChange = (event) => {
     this.setState({
@@ -28,15 +19,7 @@ export class ContactForm extends Component {
   onSubmitForm = (event) => {
     event.preventDefault();
     this.props.onSubmit({
-
-      toSendForm: {
-        fName: this.props.fName,   
-        lName: this.props.lName,
-        email: this.props.email,
-        phone: this.props.phone,
-
-      }
-          
+        ...this.state,  
     })
   }
   
