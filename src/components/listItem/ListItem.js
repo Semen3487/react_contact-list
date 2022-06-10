@@ -6,12 +6,17 @@ export class ListItem extends Component {
   onContactDelete = (event) => {
     event.stopPropagation();
     this.props.onDelete(this.props.contact.id);
-  }
+  };
   
-
+  onContactEdit = (event) => {
+    event.stopPropagation();
+    this.props.onEdit(this.props.contact);
+  };
+  
   render() {
     return (
-      <div className='list-item'>
+      <div className='list-item' 
+           onDoubleClick={this.onContactEdit} >
         <span className='list-group-name'>
           {this.props.contact.fName} {this.props.contact.lName}
         </span>

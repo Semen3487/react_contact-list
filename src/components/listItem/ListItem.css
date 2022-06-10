@@ -6,6 +6,12 @@
   align-items: center;
 
   background-color: white;
+  border: solid 1px transparent;
+}
+
+.list-item:hover {
+  cursor: pointer;
+  border: solid 1px rgb(46, 45, 45)
 }
 
 .list-group-name {
@@ -24,8 +30,4 @@
   color: rgb(0, 157, 255);
   border: solid 3px rgb(0, 157, 255);
   background-color: white;
-}
-
-.list-group-delete:hover {
-  cursor: pointer;
 }

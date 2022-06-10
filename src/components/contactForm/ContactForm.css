@@ -5,7 +5,7 @@
 }
 
 .form-item {
-  margin: 10px 2px;
+  margin: 15px 2px;
 }
 
 input {
@@ -31,15 +31,6 @@ input {
   cursor: pointer;
 }
 
-button {
-  margin: 30px;
-  width: 80px;
-  height: 40px;
-  font-size: 1.1em;
-  border-radius: 20px;
-  background-color: rgb(123, 202, 202);
-}
-
-button:hover {
-  cursor: pointer;
+form > button {
+  margin-top: 55px;
 }
